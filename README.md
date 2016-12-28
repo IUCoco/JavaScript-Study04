@@ -45,3 +45,7 @@ xmlhttp.open("POST","ajax_test.asp",true);
 xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
 xmlhttp.send("fname=Bill&lname=Gates");
 ```
+#### setRequestHeader(header,value)  
+向请求添加 HTTP 头。  
+header: 规定头的名称  
+value: 规定头的值
