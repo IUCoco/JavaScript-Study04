@@ -58,7 +58,7 @@ responseXML	获得 XML 形式的响应数据。  
 responseXML	获得 XML 形式的响应数据。  
 如果来自服务器的响应并非 XML，请使用 responseText 属性。  
 responseText 属性返回字符串形式的响应，因此您可以这样使用：  
-`document.getElementById("myDiv").innerHTML=xmlhttp.responseText;`
+`document.getElementById("myDiv").innerHTML=xmlhttp.responseText;`  
 responseXML 属性  
 如果来自服务器的响应是 XML，而且需要作为 XML 对象进行解析，请使用 responseXML 属性：  
 请求 books.xml 文件，并解析响应：  
